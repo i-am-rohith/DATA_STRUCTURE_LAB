@@ -35,6 +35,12 @@ j++;
 k++;
 }
 }
+while(i<n)
+{
+c[k]=a[i];
+i++;
+k++;
+}
 while(j<m)
 {
 c[k]=b[j];
