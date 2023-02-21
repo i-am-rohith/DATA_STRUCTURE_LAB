@@ -33,8 +33,6 @@ else
 {
 s3[i]='1';
 }
-s3[i]='\0';
-}
 void intersection(char*s1,char*s2,char*s3)
 {
 int l,i;
@@ -47,8 +45,6 @@ s3[i]='1';
 else
 {
 s3[i]='0';
-}
-s3[i]='\0';
 }
 void difference(char*s1,char*s2,char*s3)
 {
@@ -63,5 +59,4 @@ else
 {
 s3[i]='0';
 }
-s3[i]='\0';
-}
+
