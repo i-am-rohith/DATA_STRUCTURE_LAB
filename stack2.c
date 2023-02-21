@@ -37,7 +37,7 @@ void push()
 {
 	struct node *new=NULL;
 	new=(struct node*)malloc(sizeof (struct node));
-	printf("E2nter the data to be pushed:");
+	printf("Enter the data to be pushed:");
 	scanf("%d",&new->data);
 	new->next=top;
 	top=new;
